@@ -1,4 +1,4 @@
-package medoths;
+package methods;
 
 public class Calculator {
 	
@@ -18,9 +18,8 @@ public int getPriceofPen() {
 	//System.out.println("pen price : "+TotalPenPrice);
 	return TotalPenPrice;
 }
-}
 
-class Example{
+
 	public static void main(String args[]){
 	
 		Calculator value=new Calculator();
