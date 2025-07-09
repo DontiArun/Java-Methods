@@ -1,4 +1,4 @@
-package medoths;
+package methods;
 
 public class MethodExample2 {
 	//a method with nothing
@@ -16,9 +16,8 @@ public class MethodExample2 {
 		System.out.println("A value is"+a);
 	}
 
-}
 
-class example{
+
 	public static void main(String args[]) {
 		//creating object to call method
 		MethodExample2 obj=new MethodExample2();
