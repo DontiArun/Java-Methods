@@ -1,15 +1,18 @@
 package strings;
 
 import java.util.Scanner;
+
 //Student details using methods
 
 class Student {
+	
 	// creating member variables
 	int rno;
 	int ja,c,phy,tel,eng;
 	String name;
 	float marks,avg;
 	Scanner sc = new Scanner(System.in);
+	
 	// method for user input for the data
 	public void inputData() {
 		System.out.println("Enter your Rno: ");
@@ -28,6 +31,7 @@ class Student {
 		System.out.println("Enter your ENGLISH marks: ");
 		eng=sc.nextInt();
 	}
+	
 	// method for user display for the data
 	public void displayData() {
 		System.out.println("-----STUDENT DETAILS-----");
@@ -49,7 +53,7 @@ class Student {
 }
 public class StudentData {
 	public static void main(String[] args) {
-		Student std = new Student();
+		Student std = new Student();		//creating object to call methods
 		std.inputData();
 		std.displayData();
 	}
