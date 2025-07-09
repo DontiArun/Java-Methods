@@ -1,8 +1,10 @@
 package strings;
 import java.util.Scanner;
+
 ///Employee details using methods
 
 class Emplyoee {
+	
 	//creating member variables
 	    int id;
 	    int salary;
@@ -10,6 +12,7 @@ class Emplyoee {
 	    float pf=0.2f;
 	    String name;
 	    Scanner sc = new Scanner(System.in);
+	
 	 // method for user input for the data
 	    public void InputData(){
 	    	System.out.println("Enter Employee ID : ");
@@ -21,7 +24,9 @@ class Emplyoee {
 	    	salary=sc.nextInt();
 	    	
 	    }
+	
 	    //method for diplaying data
+	
 	    public void ShowDetails(){
 	    	System.out.println("-----------EMPLOYEE DETAILS-------------");
 	    	System.out.println("Employee ID : "+id);
@@ -43,7 +48,7 @@ class Emplyoee {
 }
  public class EmployeeData{
 	 public static void main(String[] args) {
-		 Emplyoee emp = new Emplyoee();
+		 Emplyoee emp = new Emplyoee();		//creating object for calling methods
 		 emp.InputData();
 		 emp.ShowDetails();
 	 }
