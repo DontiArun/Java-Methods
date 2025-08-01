@@ -12,7 +12,7 @@ public class Calculator {
 
 
 public int getPriceofPen() {
-	int CapPrice = 2;
+	int CapPrice = 2;  
 	int PenBodyPrice = 5;
 	int TotalPenPrice = sum(CapPrice,PenBodyPrice);
 	//System.out.println("pen price : "+TotalPenPrice);
